@@ -11,7 +11,7 @@ ter o Docker instalado na máquina. Você pode baixá-los nos links abaixo:
 ### 1. Clone o repositório
 
 ```bash
-    git clone https://github.com/seu-usuario/minha-api.git
+    git clone https://github.com/Yahweh-code/Api_c3_DEV
     cd minha-api
 ````
 
