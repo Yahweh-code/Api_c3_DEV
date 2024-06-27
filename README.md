@@ -1,31 +1,23 @@
-# API_with_type
-Api com Typescript, Prisma e SQLITE
+    # API
+Esta é uma aplicação de exemplo usando Node.js, TypeScript, Prisma, SQLite e JWT, configurada para ser executada em um contêiner Docker.
 
-## Funcionalidade
-- Criar Usuários
-- Criar Posts
-- Criar Comentários
-
-## Instalação 
-Inicialize o projeto com npm
+## Pré requisitos
+ter o Docker instalado na máquina. Você pode baixá-los nos links abaixo:
 ```bash
-    npm init -y
-```
-Instale o Prisma & Express
-```bash
-    npm install express @types/express typescript ts-node-dev prisma @prisma/client
-```
-Inicie o Prisma 
-```bash
-    npx prisma init 
+   [Docker](https://www.docker.com/get-started)
+   [Docker Compose](https://docs.docker.com/compose/install/)
 ```
 
-Realize a Migração do schema 
-```bash
-   npx prisma migrate dev --name iniciando prisma
-```
+### 1. Clone o repositório
 
-Inicie a API
 ```bash
-   npx ts-node-dev src/index.ts
-```
+    git clone https://github.com/seu-usuario/minha-api.git
+    cd minha-api
+````
+
+### 1. Rode o conteiner docker
+
+```bash
+    docker run -p 3000:3000 minha-api:latest
+````
+
